@@ -56,7 +56,7 @@ This project is completed in my UChicago Capstone collaborating with Abzooba Inc
 </center>
 
 ---
-## Business Intelligence & Data Engineering & Big Data
+## Business Intelligence and Data Engineering and Big Data
 
 ### Dota2 Game Balance Analysis
 
@@ -72,6 +72,12 @@ This project is a in-class group project at the University of Chicago Data Visua
 
 <center><img width="1107" alt="image" src="https://user-images.githubusercontent.com/94136772/179145154-7ff1b5e5-ff4c-43bb-adfc-9947d55801c3.png"></center>
 
+### Flight Cancellation Prediction and Features Analysis
+
+[![](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/mattkczhang/Flight-Cancellation-Prediction-and-Features-Analysis)
+
+This project is a in-class group project at the University of Chicago Big Data Platform course in 2022 fall. The goal is to predict flight cancellations based on weather and airline employees using Google Cloud Platform. We extracted, transformed, aggregated, and merged four datasets in total 116 GB from GCS data lake, dropped and imputed missing values, and loaded the data for EDA and feature engineering using PySpark SQL on GCP dataproc cluster. We then developed PySpark data preprocessing and random forest and gradient boosted tree machine learning pipeline to predict flight cancelation and optimized the models using grid search, achieving a 30% increase in accuracy and F1 score.
+ 
 ---
 ## Machine Learning
 

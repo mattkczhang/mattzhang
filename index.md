@@ -4,8 +4,8 @@ layout: default
 
 # Education
 ---
-- #### <img src="https://github.com/mattkczhang/mattzhang/assets/94136772/ae8aac32-2cfc-4ca5-b1b9-deb9ae8e83b9" width="30" height="30" /> M.S. in Applied Data Science @ The University of Chicago 
-- #### <img src="https://github.com/mattkczhang/mattzhang/assets/94136772/9d5651fc-3749-40ba-ad4f-18452ee5bfcf" width="30" height="30" /> B.A. in Economics; Political Science @ Macalester College 
+- #### <img src="https://github.com/mattkczhang/mattzhang/assets/94136772/9b4624a6-2fda-4eba-b0ed-6f90b35f3b92" width="30" height="30" /> M.S. in Applied Data Science @ The University of Chicago 
+- #### <img src="https://github.com/mattkczhang/mattzhang/assets/94136772/9bac5b7b-2bc6-45f0-b240-4deb35221d4c" width="30" height="30" /> B.A. in Economics; Political Science @ Macalester College 
 
 # Portfolio
 ---
@@ -26,7 +26,7 @@ This project is completed when interning at MacHarry Education Consulting. It is
 **Web App Deployment:** Developed an automatic data flow from data loading from OLAP to data cleaning and transformation and to modeling via Python, deployed the final model on a web app demo via Streamlit where employees can log in, check the customers’ profile and recommended products by entering their ID, and rerun the model on the up-to-date data, aiming to reduce the data analysis workload for 25%.
 
 <center>
-  <img width="826" alt="image" src="https://github.com/mattkczhang/mattzhang/assets/94136772/26bfc054-c0e9-47f9-84ef-dc37d09c7af1">
+  <img width="826" alt="image" src="https://github.com/mattkczhang/mattzhang/assets/94136772/332f7ae3-059d-47c9-9441-98bbd40716d4">
 </center>
 
 ---
@@ -52,7 +52,7 @@ This project is completed in my UChicago Capstone collaborating with Abzooba Inc
 **Edge Device Deployment:** Collaborated with cross-functional teams to build the end-to-end project pipeline from data extraction to model deployment on Abzooba’s AI/ML operation platform Xpresso.ai, leading to a 30% increase in productivity. 
 
 <center>
-  <img width="936" alt="image" src="https://github.com/mattkczhang/mattzhang/assets/94136772/9b26cd45-2707-4bc7-9377-869409accba1">
+  <img width="936" alt="image" src="https://github.com/mattkczhang/mattzhang/assets/94136772/ae61ec53-9404-4208-b1af-51a020f8402e">
 </center>
 
 ---
@@ -92,9 +92,9 @@ The project is a in-class group project at the University of Chicago Data Mining
 
 **Web Deployment:** With the web deployment, users can easily check the predicted score of the red wine by changing the values of different inputs/volume of different chemicals.
 
-<center><img src="images/Red_Wine_Quality_Prediction.png"/></center>
-
-&nbsp;
+<center>
+  <img width="936" alt="image" src="https://github.com/mattkczhang/mattzhang/assets/94136772/99a28ea0-2ea0-438e-a4a9-ea111ef85992">
+</center>
 
 ### Term Deposit Subscription Prediction
 
@@ -117,7 +117,7 @@ This is a in-class group project at the University of Chicago Time Series Analys
 
 This web app is developed and deployed via Streamlit. It uses Google Sheet as backend database to record the daily weight. User can enter their weights everyday and a line chart is automatically generated and updated to show the trend of weights.
 
-<center><img width="1072" alt="image" src="https://github.com/mattkczhang/mattzhang/assets/94136772/1ddf1095-ee04-4b82-9216-e4c3a091886d"></center>
+<center><img width="1072" alt="image" src="https://github.com/mattkczhang/mattzhang/assets/94136772/d41a612a-147f-4000-b401-13d5bb412b88"></center>
 
 ---
 ## Economics

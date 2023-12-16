@@ -28,8 +28,8 @@ navigation:
         link: ./index.html#natural-language-processing
       - name: Computer Vision
         link: ./index.html#computer-vision
-      - name: Business Intelligence & Data Engineering & Big Data
-        link: ./index.html#business-intelligence-&-data-engineering-&-big-data
+      - name: Business Intelligence and Data Engineering and Big Data
+        link: ./index.html#business-intelligence-and-data-engineering-and-big-data
       - name: Machine Learning
         link: ./index.html#machine-learning
       - name: Web App

@@ -11,7 +11,7 @@ layout: default
 ---
 ## Recommender System
 
-### Product recommendation based on Deep Factorization Machine Model and Deep Cross Network
+### Product recommendation based on Deep Factorization Machine and Deep Cross Network
 
 This project is completed when interning at MacHarry Education Consulting. It is a end-to-end project from data engineering, business intelligence, deep learning modeling and to web app deployment demo. 
 

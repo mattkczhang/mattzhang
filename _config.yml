@@ -23,6 +23,6 @@ navigation:
     link: ./index.html
     sublist:
       - name: Image
-        link: ./index.html#Recommender-System
+        link: ./index.html#Computer-Vision
   - name: Another Page
     link: ./another-page.html

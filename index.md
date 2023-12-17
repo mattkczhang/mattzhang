@@ -4,8 +4,8 @@ layout: default
 
 # Education
 ---
-- #### <img src="https://github.com/mattkczhang/mattzhang/assets/94136772/9b4624a6-2fda-4eba-b0ed-6f90b35f3b92" width="30" height="30" /> M.S. in Applied Data Science @ The University of Chicago 
-- #### <img src="https://github.com/mattkczhang/mattzhang/assets/94136772/9bac5b7b-2bc6-45f0-b240-4deb35221d4c" width="30" height="30" /> B.A. in Economics; Political Science @ Macalester College 
+#### <img src="https://github.com/mattkczhang/mattzhang/assets/94136772/9b4624a6-2fda-4eba-b0ed-6f90b35f3b92" width="30" height="30" /> M.S. in Applied Data Science @ The University of Chicago 
+#### <img src="https://github.com/mattkczhang/mattzhang/assets/94136772/9bac5b7b-2bc6-45f0-b240-4deb35221d4c" width="30" height="30" /> B.A. in Economics; Political Science @ Macalester College 
 
 # Portfolio
 ---

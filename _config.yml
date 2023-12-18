@@ -4,6 +4,7 @@ email: kzhang.matt@gmail.com
 description: 
 favicon: true
 color-scheme: auto
+google_analytics: G-E8Y9TBESSS
 
 plugins:
   - jekyll-sitemap

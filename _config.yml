@@ -18,9 +18,8 @@ platforms:
     icon: <i class="fa-brands fa-linkedin"></i>
     link: https://www.linkedin.com/in/mattkczhang
   - name: Resume
-    icon: <i class="fa-solid fa-file-user"></i>
+    icon: <i class="fa-solid fa-sheet-plastic"></i>
     link: ./assets/doc/resume.pdf
-
 
 navigation:
   - name: Portfolio

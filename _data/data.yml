@@ -8,29 +8,29 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Kaichong (Matt) Zhang
+    tagline: Full Stack Data Engineer/Data Scientist/Data Analyst
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-    citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@jekyllrb'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    mastodon:  # Please include your full Mastodon link here.
-    hackerrank: # Please provide your HackerRank username.
-    leetcode: # Please provide your LeetCode username.
+    email: kzhang.matt@gmail.com
+    phone: 651 795 8093
+    # timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    # citizenship:
+    # website: https://github.com/mattkczhang # Include the full website URL, including "http://" or "https://".
+    linkedin: mattkczhang 
+    # xing: alandoe
+    github: mattkczhang 
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@jekyllrb'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    # mastodon:  # Please include your full Mastodon link here.
+    # hackerrank: # Please provide your HackerRank username.
+    # leetcode: # Please provide your LeetCode username.
     pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
     languages:
@@ -39,230 +39,173 @@ sidebar:
         - idiom: English
           level: Native
 
-        - idiom: French
-          level: Professional
+        - idiom: Chinese
+          level: Native
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: Cantonese
+          level: Native
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Basketball
           link:
 
-        - item: Snowboarding
+        - item: Road Trip
           link:
 
         - item: Cooking
           link:
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+# career-profile:
+#     title: Career Profile
+#     summary: |
+#       Summarise your career here lorem ipsum dolor sit amet, consectetuer
+#       adipiscing elit. You can [download this free resume/CV template here]().
+#       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+#       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+#       Donec quam felis, ultricies nec, pellentesque eu.
+#       Second paragraph if required.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MS in Applied Data Science
+        university: The University of Chicago
+        time: 2021 - 2022
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+
+      - degree: BA in Economics, BA in Political Science
+        university: Macalester College
+        time: 2017 - 2021
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Data Engineer
+        time: August 2023 - Present
+        company: California Creative Solutions, Inc, Poway, CA
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+            - Maintained existing MS SQL Database by creating triggers to retain database integrity and by writing index maintenance and data fetching stored procedures to enhance query performance by 30% with the help of execution plans.
+            - Designed and developed the ETL pipeline on Azure from sources like on-prem and Azure SQL databases and text/csv/json files to destinations like Azure Data Lake and Dedicated SQL Pool using Azure Data Factory pipelines and data flows and Azure Databricks notebooks that were executed automatically by scheduled and storage event triggers.
+            - Created 10+ user-defined PySpark functions for tasks like exploratory data analysis, data cleansing and transformation.
+            - Successfully managed 190 GB initial load and 250 MB daily incremental load with an logic app to notify stakeholders the execution time, status, and results, leading to faster response in case of pipeline errors and failures.
+            - Developed 5 PowerBI reports and 2 dashboards with auto refresh to capture the business insights like lawyers’ performance and clients’ billing and set up data alerts and subscriptions to ensure stakeholders can receive up-to-date information.
+            - Optimized the complete ETL and BI solution by setting up checkpoints and error handling mechanisms (try catch and conditional execution), using proper file formats (parquet and delta), and conducting query folding, parallel processing, and data partitioning.
+      - role: Data Analyst Intern
+        time: April 2023 - August 2023
+        company: MacHarry Education Consulting, Plymouth, MN
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+            - Designed data models for OLTP and OLAP (star schema) system in MySQL; implemented database normalization to maintain integrity; maintained indexes in dimension and fact tables to speed up data fetching; created views to simplify code complexity and improve data security, and developed a Python-based ETL pipeline to generate ready-to-use data from raw data in OLTP.
+            - Built the MySQL Server-Tableau connection and designed 11 visualizations and 2 interactive dashboards for stakeholders to monitor customer purchasing behaviors and product popularity and to identify and predict the trends and seasonality of different products.
+            - Conducted EDA to uncover the relationships among customers’ demographic information, products’ characteristics, and transaction status, cleaned the data by converting data types and handling outliers and missing values, and developed a Deep Factorization Machine model based on implicit feedback, achieving 95.5% F1 Score, 16.9% recall@10 and aiming to increase the revenue by 30%.
+            - Deployed the final model on a web app demo via Streamlit where employees can log in, check customers’ profiles and recommended products by entering their ID, and rerun the model on the up-to-date data, aiming to reduce the data analysis workload by 25%.
+      - role: Data Scientist
+        time: March 2022 - December 2022
+        company: Abzooba Inc., Milpitas, CA
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+            - Developed an 8 times faster image segmentation tool for cellular research clients by building deep learning U-Net and FCN-8 models from scratch via PyTorch and deployed the best-performing U-Net on an Android app with an inference time of 1 second per image.
+            - Achieved cross-validated 99.8% accuracy and 99.5% IoU on the final model by increasing the number of epochs, setting up early stop, and imposing image augmentation to overcome the overfitting problem and improve model generalization.
+            - Collaborated with cross-functional teams to build the end-to-end MLOps pipeline from data extraction to model deployment on Abzooba’s AI/ML operation platform Xpresso.ai, leading to a 30% increase in productivity.
+      - role: Data Science Intern
+        time: July 2022 — October 2022
+        company: Inference Analytics Inc., Chicago, IL
+        details: |
+            - Developed an AI-based text-mining system to extract the keys of radiology reports and output structural data for UChicago Medicine.
+            - Tokenized the text data, analyzed the part-of-speech, dependency, and entity annotation of sampling sentences, identified 18 sentence patterns for keyword extraction using SpaCy and Stanza, and successfully influenced stakeholders to integrate the new patterns into the NLP module, leading to a 25% increase in accuracy.
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
+        - name: Microsoft Power BI Data Analyst Associate (PL 300)
           organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+          credentialid: AF0C8A81F1D62694
+          credentialname: 3C8FF1-B8F322
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
+        - name: Microsoft Azure Fundamental (AZ 900)
           organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          credentialid: 38118C3200A960F9
+          credentialname: 00BE75-195B83
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+
+        - name: Snowflake Pro Core  
+          organization: Snowflake
+          credentialid: S0028115
+          details: |
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: ’quickstatandeda’ Python Package Development
+        link: "https://github.com/mattkczhang/quickstatandeda"
+        tagline: "The quickstatandeda package aims to generate visuals and an main html file for any Python Pandas DataFrame with data types correctly identified."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "The triple effect of Covid-19 on Chinese exports: First evidence of the export supply, import demand and GVC contagion effects. Covid Economics"
+        link: "https://cepr.org/system/files/publication-files/101405-covid_economics_issue_53.pdf#page=77"
+        authors: Friedt, F. L., & Zhang, K.
+        # conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Demand Shock along the Supply Chain: The Bullwhip Effect of Demand Shock along the Supply Chain: The Bullwhip Effect of Covid-19 in Chinese Exports"
+        link: "https://digitalcommons.macalester.edu/cgi/viewcontent.cgi?article=1111&=&context=economics_honors_projects&=&sei-redir=1&referer=https%253A%252F%252Fscholar.google.com%252Fscholar%253Fhl%253Den%2526as_sdt%253D0%25252C48%2526q%253Dkaichong%252Bzhang%2526btnG%253D#search=%22kaichong%20zhang%22"
+        authors: Zhang, K.
+        # conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: MS SQL/My SQL
         level: 98%
 
-      - name: Angular
+      - name: PowerBI
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: Azure
         level: 95%
 
-      - name: Ruby on Rails
+      - name: SSIS
+        level: 93%
+
+      - name: Github
+        level: 90%
+
+      - name: Snowflake
+        level: 90%
+
+      - name: MS Excel
+        level: 90%
+
+      - name: R/R Studio
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

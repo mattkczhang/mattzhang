@@ -1,42 +1,6 @@
-title: <center> Kaichong (Matt) Zhang </center>
-logo: /assets/img/picture2.png
-email: kzhang.matt@gmail.com
-description: 
-favicon: true
-color-scheme: auto
-google_analytics: G-E8Y9TBESSS
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jemoji
-
-platforms:
-  - name: GitHub
-    icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/mattkczhang
-  - name: LinkedIn
-    icon: <i class="fa-brands fa-linkedin"></i>
-    link: https://www.linkedin.com/in/mattkczhang
-  - name: Resume
-    icon: <i class="fa-solid fa-sheet-plastic"></i>
-    link: ./assets/doc/resume.pdf
-
-navigation:
-  - name: Portfolio
-    link: ./index.html
-    sublist:
-      - name: Recommender System
-        link: ./index.html#recommender-system
-      - name: Natural Language Processing
-        link: ./index.html#natural-language-processing
-      - name: Computer Vision
-        link: ./index.html#computer-vision
-      - name: BI, DE, Big Data
-        link: ./index.html#business-intelligence-and-data-engineering-and-big-data
-      - name: Machine Learning
-        link: ./index.html#machine-learning
-      - name: Web App
-        link: ./index.html#web-app
-      - name: Economics
-        link: ./index.html#economics
+title: Minimal theme
+logo: /assets/img/logo.png
+description: Minimal is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
@@ -34,3 +35,15 @@ compress_html: # - http://jch.penibelst.de/
 port: 4000
 host: 0.0.0.0
 safe: false
+=======
+title: Minimal theme
+logo: /assets/img/logo.png
+description: Minimal is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+>>>>>>> 0f9a8dbcf050c8a6dba9e2bebba322d004f390cd

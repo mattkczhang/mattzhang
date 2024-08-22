@@ -138,9 +138,22 @@ projects:
     intro: >
 
     assignments:
-      - title: ’quickstatandeda’ Python Package Development
+      - title: quickstatandeda package on PyPI
         link: "https://github.com/mattkczhang/quickstatandeda"
-        tagline: "The quickstatandeda package aims to generate visuals and an main html file for any Python Pandas DataFrame with data types correctly identified."
+        tagline: "The quickstatandeda package published on the Python Package Index (PyPI) aims to generate visuals, summary tables, and an main html file for any Python Pandas DataFrame with data types correctly identified."
+
+      - title: Stock Simulation
+        link: "https://github.com/mattkczhang/StockSimulation"
+        tagline: "This is a web app presented via Streamlit to allow stock market rookies to play with a single stock."
+
+      - title: Data Transformation
+        link: "https://github.com/mattkczhang/DataTransformation"
+        tagline: "An web app that takes in excel-like table operation and export cleaned data and the corresponding python scripts."
+
+      - title: Flight Cancellation Prediction and Features Analysis
+        link: "https://github.com/mattkczhang/Flight-Cancellation-Prediction-and-Features-Analysis"
+        tagline: "This project is a in-class group project at the University of Chicago Big Data Platform course in 2022 fall. The goal is to predict flight cancellations based on weather and airline employees using Google Cloud Platform."
+
 
 # oss:
 #     title: OSS Contributions

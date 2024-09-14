@@ -182,12 +182,14 @@ publications:
       - title: "The triple effect of Covid-19 on Chinese exports: First evidence of the export supply, import demand and GVC contagion effects. Covid Economics"
         link: "https://cepr.org/system/files/publication-files/101405-covid_economics_issue_53.pdf#page=77"
         authors: Friedt, F. L., & Zhang, K.
-        # conference: Addison-Wesley, 1968
 
       - title: "Demand Shock along the Supply Chain: The Bullwhip Effect of Demand Shock along the Supply Chain: The Bullwhip Effect of Covid-19 in Chinese Exports"
         link: "https://digitalcommons.macalester.edu/cgi/viewcontent.cgi?article=1111&=&context=economics_honors_projects&=&sei-redir=1&referer=https%253A%252F%252Fscholar.google.com%252Fscholar%253Fhl%253Den%2526as_sdt%253D0%25252C48%2526q%253Dkaichong%252Bzhang%2526btnG%253D#search=%22kaichong%20zhang%22"
         authors: Zhang, K.
-        # conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: "Incorporating Deep Learning Model Development with an End-to-End Data Pipeline"
+        link: "https://ieeexplore.ieee.org/document/10669626"
+        authors: Zhang, K.
 
 skills:
     title: Skills &amp; Proficiency

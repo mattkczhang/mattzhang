@@ -15,7 +15,7 @@ sidebar:
     # Sidebar links
     email: kzhang.matt@gmail.com
     phone: 651 795 8093
-    # timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    # timezone: America/Los Angelas # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     # citizenship:
     # website: https://github.com/mattkczhang # Include the full website URL, including "http://" or "https://".
     linkedin: mattkczhang 
@@ -83,22 +83,33 @@ experiences:
     title: Experiences
     info:
       - role: Data Engineer
-        time: August 2023 - Present
-        company: California Creative Solutions, Inc, Poway, CA
+        time: August 2023 - January 2025
+        company: The Automobile Club of Southern California @American Automobile Association, Costa Mesa, CA
         details: |
-            - Maintained existing MS SQL Database by creating triggers to retain database integrity and by writing index maintenance and data fetching stored procedures to enhance query performance by 30% with the help of execution plans.
-            - Designed and developed the ETL pipeline on Azure from sources like on-prem and Azure SQL databases and text/csv/json files to destinations like Azure Data Lake and Dedicated SQL Pool using Azure Data Factory pipelines and data flows and Azure Databricks notebooks that were executed automatically by scheduled and storage event triggers.
-            - Created 10+ user-defined PySpark functions for tasks like exploratory data analysis, data cleansing and transformation.
-            - Successfully managed 190 GB initial load and 250 MB daily incremental load with an logic app to notify stakeholders the execution time, status, and results, leading to faster response in case of pipeline errors and failures.
+            - Led a project to migrate on-premise data pipelines (SSIS, SQL Server) to AWS for unified, flexible, and cost-efficient data solution.
+            - Designed the AWS architecture to replicate and enhance existing pipelines and drafted the data migration document.
+            - Developed Lambda Functions with s3 event triggers for automatic the daily data loading and orchestrated parameterized Glue jobs executed by the lambda function for data transformation and incremental loading.
+            - Provided production support by resolving SSIS and Hive job failures and fulfilled data requests from marketing and analytics teams.        
+            - Managed sprint planning and task prioritization via Jira, ensuring on-time delivery in an agile environment.
+      - role: Data Engineer / BI Developer
+        time: August 2023 - January 2025
+        company: California Creative Solutions Inc, Poway, CA
+        details: |
+            - Maintained existing MS SQL Database by creating maintenance plan with integrity check and index maintenance, writing dynamic data retrieval stored procedures, creating table partitions, and rewriting slow-running queries to enhance query performance by 30%.
+            - Prepared the Data Mapping Documents based on the gathered requirements and designed and developed 15+ scheduled ETL pipelines using Azure Data Factory (ADF) and Azure Databricks to integrate 190 GB data from on-premises and on-cloud sources.
+            - Applied data profiling mechanism to reduce data error by 20% and leveraged the logic app to inform stakeholders about pipeline execution, leading to a 30% shorter response time in case of pipeline errors and failures.
+            - Created 10+ PySpark functions for tasks like EDA, table transformation and merging, cloud service connection, and json file parsing, implemented script modularization, and executed and monitored Azure Databricks notebooks in ADF pipelines.
             - Developed 5 PowerBI reports and 2 dashboards with auto refresh to capture the business insights like lawyers’ performance and clients’ billing and set up data alerts and subscriptions to ensure stakeholders can receive up-to-date information.
-            - Optimized the complete ETL and BI solution by setting up checkpoints and error handling mechanisms (try catch and conditional execution), using proper file formats (parquet and delta), and conducting query folding, parallel processing, and data partitioning.
+            - Conducted unit testing on individual components of the ETL pipeline and ran integration tests of the pipeline using dirty sample data.
+            - Collaborated with cross-functional teams to optimize the existing ETL and BI solution by setting up checkpoints and error handling mechanisms, using proper file formats, and conducting query folding and parallel processing.
       - role: Data Analyst Intern
         time: April 2023 - August 2023
         company: MacHarry Education Consulting, Plymouth, MN
         details: |
-            - Designed data models for OLTP and OLAP (star schema) system in MySQL; implemented database normalization to maintain integrity; maintained indexes in dimension and fact tables to speed up data fetching; created views to simplify code complexity and improve data security, and developed a Python-based ETL pipeline to generate ready-to-use data from raw data in OLTP.
-            - Built the MySQL Server-Tableau connection and designed 11 visualizations and 2 interactive dashboards for stakeholders to monitor customer purchasing behaviors and product popularity and to identify and predict the trends and seasonality of different products.
-            - Conducted EDA to uncover the relationships among customers’ demographic information, products’ characteristics, and transaction status, cleaned the data by converting data types and handling outliers and missing values, and developed a Deep Factorization Machine model based on implicit feedback, achieving 95.5% F1 Score, 16.9% recall@10 and aiming to increase the revenue by 30%.
+            - Conducted data modeling in MySQL based on clients’ requirements; implemented database normalization to prevent data redundancy and modification errors; created and maintained indexes in dimension and fact tables to speed up data fetching queries; developed views to simplify code complexity and improve data security; and documented the database objects for future references.
+            - Connected Tableau to the MySQL Server and designed 11 visualizations and 2 interactive dashboards for stakeholders to monitor    customer purchasing behaviors and product popularity and to identify and predict the trends and seasonality of different products.
+            - Conducted EDA to uncover the relationships among customers’ demographic information, products’ characteristics, and transaction status, and prepared the data by converting data types and handling outliers and missing values.
+            - Developed and evaluated the Factorization Machine, Deep & Cross Network, and Deep Factorization Machine model based on implicit feedback with incremental learning, achieving 95.5% F1 Score, 16.9% recall@10 and aiming to increase the revenue by 30%.
             - Deployed the final model on a web app demo via Streamlit where employees can log in, check customers’ profiles and recommended products by entering their ID, and rerun the model on the up-to-date data, aiming to reduce the data analysis workload by 25%.
       - role: Data Scientist
         time: March 2022 - December 2022
@@ -111,8 +122,8 @@ experiences:
         time: July 2022 — October 2022
         company: Inference Analytics Inc., Chicago, IL
         details: |
-            - Developed an AI-based text-mining system to extract the keys of radiology reports and output structural data for UChicago Medicine.
-            - Tokenized the text data, analyzed the part-of-speech, dependency, and entity annotation of sampling sentences, identified 18 sentence patterns for keyword extraction using SpaCy and Stanza, and successfully influenced stakeholders to integrate the new patterns into the NLP module, leading to a 25% increase in accuracy.
+            - Developed an AI-based text-mining system to extract the keys of radiology reports and output structural data for UChicago Medicine, replacing the manual workload of reading reports
+            - Tokenized the text data, analyzed the part-of-speech, dependency, and entity annotation of sampling sentences, identified 18 sentence patterns for keyword extraction using SpaCy and Stanza, and successfully influenced stakeholders to integrate the new patterns into the NLP module, leading to a 25% increase in accuracy. 
 certifications:
       title: Certifications
       list:
@@ -213,6 +224,9 @@ skills:
       - name: Github
         level: 90%
 
+      - name: AWS
+        level: 90%
+        
       - name: Snowflake
         level: 90%
 
